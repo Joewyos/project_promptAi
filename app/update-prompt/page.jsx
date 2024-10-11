@@ -3,7 +3,7 @@
 import Form from "@components/Form";
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation"; // Corrected import
-import { Suspense } from "react/cjs/react.development";
+import { Suspense } from "react";
 
 const EditPrompt = () => {
   const router = useRouter();
